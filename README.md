@@ -1,6 +1,6 @@
-# Client for Task server [emir.hamidovic/restserver](https://gitlab.com/emir.hamidovic/golang_rest)
+# Client for Task server [emir.hamidovic/restserver](https://github.com/emir-hamidovic/task-store-with-mongo-and-tls)
 
-Due to mTLS implementation, client and server need their keys and certs, how to create those is mentioned here [README.md](https://gitlab.com/emir.hamidovic/golang_rest/-/blob/main/README.md)
+Due to mTLS implementation, client and server need their keys and certs, how to create those is mentioned here [README.md](https://github.com/emir-hamidovic/task-store-with-mongo-and-tls/blob/366b96e657cf88bd424ded8fd242ba4cbf11b8ed/README.md)
 
 How to run this client:
 `go run rest.go -cert ../restserver/localhost.pem -clientcert clientcert.pem -clientkey clientkey.pem`
